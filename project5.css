@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+   
+    
+}
+.header-h1{
+    margin-bottom: 10px;
+    background-color: rgba(128, 26, 172, .85);
+    color: white;
+    padding:30px;
+    font-weight: 300;
+}
+.my-li{
+    float: left;
+    color: rgba(112, 23, 150, 0.85) ;
+    padding-right: 30px;
+    padding-left: 10px;
+    letter-spacing: .50px;
+    text-transform: uppercase;
+    transition: all 200ms;
+    font-size: 15px;
+}
+
+.my-li:hover{
+    cursor: pointer;
+    text-decoration: underline 2px;
+    transition: all 600ms;
+    color: #2869b3;
+}
+#li-home{
+    text-decoration: underline 2px;
+}
+.div-body{
+    background-image: linear-gradient(to right,#17202A,#1C2833,#212F3D,#273746) ;
+    color: white;
+    margin-top: 30px;
+    height: 65vh;
+}
+.h2-p{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.p-1{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+.div-h2-p1{
+    float: left;
+    width: 50%;
+}
+.full-form{
+    float: right;
+    width: 40%;
+    background-color: rgba(128, 26, 172, .85);
+    height: 250px;
+    margin-right: 40px;
+    margin-top: 40px;
+} 
+.my-form{
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+.h2-form{
+    margin-bottom: 10px;
+    border: none;
+    border-left: #c7c6c6 solid 2px ;
+    border-right: #c7c6c6 solid 2px ;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    
+}
+form input{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: #c7cad4 solid 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    transition: all 100ms;
+    width: 100%;
+
+}
+button{
+    border: none;
+    background: none;
+    outline: none;
+    border: #c7cad4 solid 2px;
+    border-radius: 5px;
+    color: rgb(230, 226, 226);
+    width: 100%;
+    margin-top: 15px;
+    height: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(31, 2, 44);
+    color: white;
+    transition: all 500ms;
+}
+footer{
+    background-color: #43494e;
+    height: 134px;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+footer span{
+    color: rgba(210, 155, 233, 0.85);
+}
